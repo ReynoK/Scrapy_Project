@@ -95,8 +95,8 @@ ITEM_PIPELINES = {
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 DB_RENTING = {
-    'host':'172.17.0.12',
-    'port':1278,
+    'host':'127.0.0.01',
+    'port':1234,
     'user':'root',
     'passwd':'123456',
     'db':'lianjia',
