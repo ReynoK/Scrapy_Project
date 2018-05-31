@@ -72,7 +72,6 @@ HTTP_PROXY_LIST = [
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     'scrapy.pipelines.images.ImagesPipeline':5,
-    'jiandan.pipelines.JiandanPipeline': 300,
 }
 IMAGES_STORE = '/data'
 # Enable and configure the AutoThrottle extension (disabled by default)
